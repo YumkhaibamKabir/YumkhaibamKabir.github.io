@@ -1,14 +1,12 @@
 /* CSS for the body of the document, Sources: W3School */
 body {
-    font-family: Arial, sans-serif; 
+    font-family: sans-serif; 
     margin: 20px; /* Margins are used to create space around elements, outside of any defined borders */
     padding: 5px; /* Padding is used to create space around an element's content, inside of any defined borders */
-
-
     background-color: lightgrey;
 }
 
-/* CSS for the topnavigation bar, Source:W3Schools, how to (top navigation) */ 
+/* CSS for the topnavigation bar ( Navigation bar start here) , Source:W3Schools, how to (top navigation) */ 
 .topnavbar {
     background-color: #ff9cff;
     overflow: hidden; /* The overflow property controls what happens to content that is too big to fit into an area. */
@@ -19,7 +17,7 @@ body {
     display: block; /* The display property specifies the display behavior (the type of rendering box) of an element. */
     color:black;
     text-align: center;
-    padding: 14px 16px;  
+    padding: 20px 25px;  
     text-decoration: underline;
 }
 
@@ -30,9 +28,9 @@ body {
 
 /* CSS for the header Source:W3schools */
 h1 {
-    color: #676b8a;
+    color: darkgreen;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: block;
     font-size: xx-large;
 }
@@ -40,28 +38,28 @@ h1 {
 h2 {
     color: maroon;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: contents;
     font-size: medium;
 }
 /* CSS for the main content Source:W3schools */
 p {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 2;
     color: black;
-    margin: 0px 20px 15px;
+    margin: 10px 15px 20px;
     display: block;
 }
 
-/* CSS for the tables Source:W3schools */
+/* CSS for the tables Source:W3schools, table option starts here */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 th, td {
-    padding: 10px;
+    padding: 15px;
     text-align: left;
     border-bottom: 1px solid lightseagreen;
 }
@@ -70,7 +68,7 @@ th {
     background-color: pink;
 }
 
-/* CSS for links Source:W3schools */
+/* CSS for links Source:W3schools (external link starts here) */
 a {
     color: blue;
     text-decoration: none;
@@ -83,14 +81,20 @@ a:hover {
 
 /* CSS for font family of about, education, experience, source:w3schools */
 .about {
-    font-family: "Times New Roman", Times, serif;
+    font-family: 'Cambria';
   }
-  
-.education {
-    font-family: Arial, Helvetica, sans-serif;
+#about {
+    color: blueviolet;
+}
+.resume {
+    font-family: 'Agency FB';
+    color: darkblue ;
   }
-  
-.experience
- {
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
+.Favourites {
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
+#Externallinks {
+    font-family: 'Franklin Gothic Medium';
+    color: red;
+}
