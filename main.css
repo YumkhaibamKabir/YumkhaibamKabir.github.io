@@ -6,10 +6,10 @@ body {
     background-color: lightgrey;
 }
 
-/* CSS for the topnavigation bar ( Navigation bar start here) , Source:W3Schools, how to (top navigation) */ 
+/* CSS for the topnavigation bar ( Navigation bar option start here) , Source:W3Schools, how to (top navigation) */ 
 .topnavbar {
     background-color: #ff9cff;
-    overflow: hidden; /* The overflow property controls what happens to content that is too big to fit into an area. */
+    overflow: auto; /* The overflow property controls what happens to content that is too big to fit into an area. */
 }
 
 .topnavbar a {
@@ -41,27 +41,29 @@ h2 {
     margin-bottom: 25px;
     display: contents;
     font-size: medium;
+    line-height: 2.5;
 }
-/* CSS for the main content Source:W3schools */
+/* CSS for the paragraph  content Source:W3schools */
 p {
     font-size: 20px;
-    line-height: 2;
-    color: black;
+    line-height: 2.5;
+    color: darkcyan;
     margin: 10px 15px 20px;
     display: block;
+    font-family: 'Franklin Gothic Medium';
 }
 
 /* CSS for the tables Source:W3schools, table option starts here */
 table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
 th, td {
-    padding: 15px;
+    padding: 20px;
     text-align: left;
-    border-bottom: 1px solid lightseagreen;
+    border-bottom: 3px solid lightseagreen;
 }
 
 th {
@@ -72,6 +74,8 @@ th {
 a {
     color: blue;
     text-decoration: none;
+    line-height: 1.5;
+    font-family: 'Times New Roman';
 }
 
 /* CSS for hover state of links, Source:W3schools */
@@ -89,12 +93,17 @@ a:hover {
 .resume {
     font-family: 'Agency FB';
     color: darkblue ;
+    line-height: 2;
   }
 .Favourites {
     font-family: 'Times New Roman';
     font-style: italic;
+    line-height: 2;
 }
+/* CSS for external links source:w3schools */
+.
 #Externallinks {
     font-family: 'Franklin Gothic Medium';
     color: red;
+    line-height: 1;
 }
